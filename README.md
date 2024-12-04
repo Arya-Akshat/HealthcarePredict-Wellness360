@@ -1,4 +1,5 @@
 # HealthcarePredict-Wellness360
+The main page of Website
 ![image](https://github.com/user-attachments/assets/1fc4a038-8ab5-44c0-85e2-8ba82267aac9)
 ![image](https://github.com/user-attachments/assets/7c5ebd3e-47dd-4bb1-b3fc-1c19cdabe2f8)
 Advanced Symptom Checker
