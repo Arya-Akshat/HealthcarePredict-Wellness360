@@ -9,3 +9,7 @@ Lipid Profile Analyzer
 ![image](https://github.com/user-attachments/assets/1bad075e-9348-4e81-af9a-de2c2bf9c5fc)
 Chatbot
 ![image](https://github.com/user-attachments/assets/54bc153b-1a78-4992-ab39-006b65097435)
+
+Ml model for disease prediction
+
+![Screenshot 2024-12-05 021623](https://github.com/user-attachments/assets/60dec96b-7f37-43ec-a66a-99d36c241d4f)
