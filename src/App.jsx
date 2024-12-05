@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import SymptomChecker from './pages/SymptomChecker';
 import LipidProfileAnalyzer from './pages/LipidProfileAnalyzer';
 import Chatbot from './pages/Chatbot';
+import BMICalculator from './pages/BMICalculator';
+import DiseaseAwareness from './pages/DiseaseAwareness';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="/symptom-checker" element={<SymptomChecker />} />
           <Route path="/lipid-profile" element={<LipidProfileAnalyzer />} />
           <Route path="/chatbot" element={<Chatbot />} />
+          <Route path="/bmi-calculator" element={<BMICalculator />} />
+          <Route path="/disease-awareness" element={<DiseaseAwareness />} />
         </Routes>
       </div>
     </Router>
