@@ -1,19 +1,4 @@
-from tkinter import *
-import numpy as np
-import pandas as pd
-# from gui_stuff import *
 
-l1=['back_pain','constipation','abdominal_pain','diarrhoea','mild_fever','yellow_urine',
-'yellowing_of_eyes','acute_liver_failure','fluid_overload','swelling_of_stomach',
-'swelled_lymph_nodes','malaise','blurred_and_distorted_vision','phlegm','throat_irritation',
-'redness_of_eyes','sinus_pressure','runny_nose','congestion','chest_pain','weakness_in_limbs',
-'fast_heart_rate','pain_during_bowel_movements','pain_in_anal_region','bloody_stool',
-'irritation_in_anus','neck_pain','dizziness','cramps','bruising','obesity','swollen_legs',
-'swollen_blood_vessels','puffy_face_and_eyes','enlarged_thyroid','brittle_nails',
-'swollen_extremeties','excessive_hunger','extra_marital_contac…
-Training.csv
-Testing.csv
-[2:15 am, 5/12/2024] Sasank Aiml: from tkinter import *
 import numpy as np
 import pandas as pd
 # from gui_stuff import *
