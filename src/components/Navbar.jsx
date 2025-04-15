@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { HeartIcon } from '@heroicons/react/24/solid';
 import { useTranslation } from 'react-i18next';
-import LanguageSelector from './LanguageSelector';
+//import LanguageSelector from './LanguageSelector';
 
 function Navbar() {
   const { t } = useTranslation();
@@ -33,7 +33,6 @@ function Navbar() {
             <Link to="/chatbot" className="text-gray-600 hover:text-gray-900">
               {t('nav.chatbot')}
             </Link>
-            <LanguageSelector />
           </div>
         </div>
       </div>

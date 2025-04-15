@@ -7,7 +7,7 @@ function SymptomChecker() {
   const [analysis, setAnalysis] = useState(null);
 
   const handleSymptomToggle = (symptom) => {
-    setSelectedSymptoms(prev => 
+    setSelectedSymptoms(prev =>
       prev.includes(symptom)
         ? prev.filter(s => s !== symptom)
         : [...prev, symptom]
@@ -79,7 +79,7 @@ function SymptomChecker() {
 
       <div className="glass-effect p-8 rounded-2xl shadow-lg">
         <h2 className="text-xl font-semibold mb-6">Select Your Symptoms:</h2>
-        
+
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
           {Object.entries(symptoms).map(([id, description]) => (
             <div key={id} className="flex items-center space-x-2">
@@ -113,11 +113,10 @@ function SymptomChecker() {
             animate={{ opacity: 1, y: 0 }}
             className="space-y-6"
           >
-            <div className={`p-4 rounded-lg ${
-              analysis.urgency === 'high' ? 'bg-red-100' :
+            <div className={`p-4 rounded-lg ${analysis.urgency === 'high' ? 'bg-red-100' :
               analysis.urgency === 'moderate' ? 'bg-yellow-100' :
-              'bg-green-100'
-            }`}>
+                'bg-green-100'
+              }`}>
               <p className="font-semibold">{analysis.message}</p>
             </div>
 
@@ -129,11 +128,10 @@ function SymptomChecker() {
                     <h4 className="font-semibold text-lg mb-2">{condition.name}</h4>
                     <p className="text-gray-600 mb-2">{condition.description}</p>
                     <div className="flex items-center space-x-2">
-                      <span className={`px-2 py-1 rounded text-sm ${
-                        condition.severity === 'high' ? 'bg-red-100 text-red-800' :
+                      <span className={`px-2 py-1 rounded text-sm ${condition.severity === 'high' ? 'bg-red-100 text-red-800' :
                         condition.severity === 'moderate' ? 'bg-yellow-100 text-yellow-800' :
-                        'bg-green-100 text-green-800'
-                      }`}>
+                          'bg-green-100 text-green-800'
+                        }`}>
                         {condition.severity.toUpperCase()}
                       </span>
                       <span className="text-sm text-gray-500">{condition.urgency}</span>
